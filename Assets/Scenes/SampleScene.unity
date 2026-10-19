@@ -372,6 +372,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3524149724899308108, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+      propertyPath: theRenderer
+      value: 
+      objectReference: {fileID: 1084035757}
+    - target: {fileID: 4089123287543946509, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089123287543946509, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089123287543946509, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5819401032159492042, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
       propertyPath: m_Name
       value: starShip
@@ -421,6 +437,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+--- !u!212 &1084035757 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4089123287543946509, guid: b074732bc69fc684484f1b3d042099ae, type: 3}
+  m_PrefabInstance: {fileID: 901104619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
