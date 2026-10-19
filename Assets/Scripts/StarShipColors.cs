@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShipColors : MonoBehaviour
+public class StarShipColors : MonoBehaviour
 {
     // Declare our variables
     public SpriteRenderer theRenderer; // renderer variable
@@ -17,12 +17,13 @@ public class ShipColors : MonoBehaviour
         if (theRenderer != null) 
         {
             //Randomly change the "color" value of the SpriteRenderer component once
-            ChangeColorRandomly();
+            RandomSpawnColor();
         }
     }
 
-    void ChangeColorRandomly()
+    void RandomSpawnColor(Vector3.zero)
     {
+        GameObject starShip = Instantiate(shipPrefab, Vector3.zero, Quaternion.identity);
         // Create random values between 0.0 and 1.0 for RGB
         float r = Random.Range(0.0f, 1.0f);
         float g = Random.Range(0.0f, 1.0f);
